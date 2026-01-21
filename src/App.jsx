@@ -8,22 +8,25 @@ function App() {
   return (
     <>
      <h1>Hellow world</h1>
-     <Name/>
+     
 
-      <Todo  task="Hellow i am new from here"/>
+      <Todo  task="Hellow here task."/>
+      <Todo isTrue={true}/>
+            <Todo isFalse={false}/>
+            <Todo isNumber={12}/>
     </>
   )
 }
 
 
-function Name(){
-  const age =12;
-  return(
-    <>
-    <h2>i am xunaiet farukk {age} </h2>
-    </>
-  )
-}
+// function Name(){
+//   const age =12;
+//   return(
+//     <>
+//     <h2>i am xunaiet farukk {age} </h2>
+//     </>
+//   )
+// }
 
 
 export default App
