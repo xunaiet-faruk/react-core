@@ -1,4 +1,5 @@
 
+import Actorsinfro from './Actorsinfro';
 import './App.css'
 import Todo from './Todo';
 
@@ -6,15 +7,26 @@ function App() {
  
 
   return (
-    <>
-     <h1>Hellow world</h1>
-     
+   <>
+   
+      {/* <div>
+        <h1>Hellow world</h1>
 
-      <Todo  task="Hellow here task."/>
-      <Todo isTrue={true}/>
-            <Todo isFalse={false}/>
-            <Todo isNumber={12}/>
-    </>
+
+        <Todo task="Hellow here task." />
+        <Todo isTrue={true} />
+        <Todo isFalse={false} />
+        <Todo isNumber={12} />
+      </div> */}
+   
+
+
+   <div>
+
+    <Actorsinfro/>
+   </div>
+   
+   </>
   )
 }
 
