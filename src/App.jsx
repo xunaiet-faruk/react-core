@@ -1,6 +1,7 @@
 
 import Actorsinfro from './Actorsinfro';
 import './App.css'
+import Statemangment from './Statemangment';
 import Todo from './Todo';
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
 
     <Actorsinfro/>
    </div>
+
+   <Statemangment/>
    
    </>
   )
